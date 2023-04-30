@@ -1,3 +1,46 @@
 body {
-    min-width: 300px;
+    margin: 0;
+    padding: 0;
+    min-width: 500px;
+    font-family: "poppins";
+    border-radius: 100px;
+    background-color: rgb(4, 14, 29);
+    color: white;
+    /* padding: 20px 0; */
 }
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(4, 14, 29);
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(7, 23, 46);
+    border-radius: 5px;
+}
+img{
+    border-radius: 10px;
+}
+
+.header-div{
+    margin: 20px auto;
+    text-align: center;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    width: 50%;
+}
+
+ul li{
+    line-height: 2;
+    background-color: rgb(7, 23, 46);
+    margin: 20px 0;
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    
+}
+ul{
+    margin: 20px 40px 20px 0;
+}
+
