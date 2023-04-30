@@ -6,6 +6,10 @@
     "author": "Mohammad Musharraf",
     "action": {
         "default_popup": "index.html",
-        "default_title": "My Chrome Extension"
+        "default_title": "My Chrome Extension",
+        "default_icon": {
+            "16": "ipl-logo.png",
+            "32": "ipl-logo.png"
+        }
     }
 }
