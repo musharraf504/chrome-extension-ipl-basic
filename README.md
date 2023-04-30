@@ -1,7 +1,7 @@
 # chrome-extension-ipl-basic
 Code for IPL Chrome Extension built in tutorial video
 
-** An IPL score chrome extension.**
+__An IPL score chrome extension.__
 
 ## Sample image 1 ( Full Window )
 
