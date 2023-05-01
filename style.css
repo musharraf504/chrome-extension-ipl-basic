@@ -6,7 +6,6 @@ body {
     border-radius: 100px;
     background-color: rgb(4, 14, 29);
     color: white;
-    /* padding: 20px 0; */
 }
 ::-webkit-scrollbar{
     width: 7px;
@@ -20,6 +19,25 @@ body {
 }
 img{
     border-radius: 10px;
+}
+
+button{
+    width: 2.5%;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    background-color: rgb(7, 23, 46);
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 10px auto;
+    text-align: center;
+}
+.refresh{
+    text-align: center;
+}
+button:hover{
+    box-shadow: 2px 2px white;
 }
 
 .header-div{

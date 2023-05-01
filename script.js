@@ -1,6 +1,6 @@
 async function getMatchData() {
 
-    return await fetch("https://api.cricapi.com/v1/currentMatches?apikey=7d320629-4a6b-47a5-91a7-afa463f2ef45")
+    return await fetch("https://api.cricapi.com/v1/currentMatches?apikey=337386d9-19dc-435d-845a-1cf2c7766e1e")
         .then(data => data.json())
         .then(data => {
             if (data.status != "success")return;
@@ -23,3 +23,6 @@ async function getMatchData() {
 }
 
 getMatchData();
+
+const refreshButton = document.querySelector(".refresh");
+refreshButton.addEventListener('click', getMatchData);
