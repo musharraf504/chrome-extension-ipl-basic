@@ -21,6 +21,7 @@ async function getMatchData() {
         })
         .catch(e => console.log(e));
 }
+console.log("helllo !");
 
 getMatchData();
 
